@@ -4,6 +4,9 @@ import { gameScene } from './scenes/game_scene';
 
 k.setGravity(980);
 
+// デバッグモードがONの状態で始まる
+// k.debug.inspect = true;
+
 startScene();
 gameScene();
 

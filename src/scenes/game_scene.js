@@ -6,6 +6,7 @@ export function gameScene() {
       k.rect(50, 50),
       k.pos(50, 150),
       k.move(RIGHT, 100),
+      k.area(),
       k.offscreen({ destroy: true }),
     ]);
   });
